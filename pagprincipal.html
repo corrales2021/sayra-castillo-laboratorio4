@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>menu desplegable </title>
+
+<style type="text/css">
+
+p {font-family:algerian;
+font-size:3em;
+text-align:center;
+margin:2em 2em 0.8em;
+background-color:#f2f986;}
+.div01 {margin-top:0.8em;
+margin-left:15em;
+width: 62.5em;
+font-family:arial;
+font-size:1.5em;}
+
+ul {list-style-type:none;}
+a:link {text-decoration:none;}
+
+.menu li a {background-color:#d8da3d;
+color:black;
+padding:4em .4em;
+display:block;}
+
+.menu li a:hover {background-color:#f2f986;}
+
+.menu > li {float:left;}
+
+.menu li ul {display:none;
+position:absolute;}
+
+.menu li:hover > ul {display:block;}
+
+.menu li ul li {position:relative;}
+.menu li ul li ul {left:5.5em;
+top:0em;}
+
+</style>
+
+<body>
+<p>Mi tienda  online</p>
+
+<div class="div01">
+
+<ul class="menu">
+<li> <a href="pagprincipal.html"> Inicio </a> </li>
+
+<li> <a href=""> Productos</a>
+<ul>
+				
+<li> <a href=""> Hogar </a> </li>
+<li> <a href=""> Ropa casual </a> </li>
+<li> <a href=""> Ropa deportiva </a> 
+<ul>
+
+<li> <a href=""> Damas </a> </li>
+<li> <a href=""> Caballeros </a> </li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li> <a href=""> Servicios</a>
+<ul>
+<li><a href=""> Entregas a domicilio </a> </li>
+<li><a href=""> Decoraciones </a> </li>
+</ul>
+
+</li>
+
+<li> <a href=""> Contacto </a> </li>
+</ul>
+
+</div>
+
+</body>
+</html>
